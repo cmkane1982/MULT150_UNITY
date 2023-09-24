@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Evens : MonoBehaviour
 {
+    //int evenNum = 22;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +18,10 @@ public class Evens : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //if(evenNum <= 100)
+        //{
+        //    print(evenNum);
+        //    evenNum += 2;
+        //}
     }
 }

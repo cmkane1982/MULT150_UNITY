@@ -7,21 +7,24 @@ public class MyBirthday : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int totalDays;
-
         for(int month = 1; month <= 12; month++)
         {
-            if(month == 2)
+            int totalDays;
+
+            switch (month)
             {
-                totalDays = 28;
-            }
-            else if(month == 4 || month == 6 || month == 9 || month == 11)
-            {
-                totalDays = 30;
-            }
-            else
-            {
-                totalDays = 31;
+                case 1: 
+                    totalDays = 28;
+                    break;
+                case 4:
+                case 6:
+                case 9:
+                case 11:
+                    totalDays = 30;
+                    break;
+                default:
+                    totalDays = 31;
+                    break;
             }
 
             for(int currDay = 1; currDay <= totalDays; currDay++)
