@@ -315,6 +315,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06eb8b2a144c8a745ab624d480463874, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lowEvenNumber: 22
+  highEvenNumber: 100
 --- !u!114 &1319271292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -327,3 +329,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c520023f4b0fcc4bb03b8cfbafbf7b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  birthdayMonth: 1
+  birthdayDay: 19

@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class MyBirthday : MonoBehaviour
 {
+    public int birthdayMonth;
+    public int birthdayDay;
+
     // Start is called before the first frame update
     void Start()
     {
-        for(int month = 1; month <= 12; month++)
+        for(int currMonth = 1; currMonth <= 12; currMonth++)
         {
             int totalDays;
 
-            switch (month)
+            switch (currMonth)
             {
                 case 1: 
                     totalDays = 28;
@@ -29,13 +32,13 @@ public class MyBirthday : MonoBehaviour
 
             for(int currDay = 1; currDay <= totalDays; currDay++)
             {
-                if(month == 1 && currDay == 19)
+                if(currMonth == birthdayMonth && currDay == birthdayDay)
                 {
-                    print("It's my birthday!");
+                    Debug.Log("It's my birthday!");
                 }
                 else
                 {
-                    print(month + "/" + currDay);
+                    Debug.Log(currMonth + "/" + currDay);
                 }
             }
         }

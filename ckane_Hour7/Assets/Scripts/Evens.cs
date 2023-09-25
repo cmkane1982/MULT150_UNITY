@@ -4,24 +4,28 @@ using UnityEngine;
 
 public class Evens : MonoBehaviour
 {
-    //int evenNum = 22;
+    public int lowEvenNumber;
+    public int highEvenNumber;
     
     // Start is called before the first frame update
     void Start()
     {
-        for (int evenNum = 22; evenNum <= 100; evenNum += 2)
+        if (lowEvenNumber % 2 != 0 || highEvenNumber % 2 != 0)
         {
-            print(evenNum);
+            Debug.Log("Input numbers are not even.");
+        }
+        else
+        {
+            for (int evenNum = lowEvenNumber; evenNum <= highEvenNumber; evenNum += 2)
+            {
+                Debug.Log(evenNum);
+            }
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        //if(evenNum <= 100)
-        //{
-        //    print(evenNum);
-        //    evenNum += 2;
-        //}
+        
     }
 }
