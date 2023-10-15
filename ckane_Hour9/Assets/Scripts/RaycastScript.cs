@@ -9,7 +9,7 @@ public class RaycastScript : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.forward, out hit))
         {
-            print(hit.collider.gameObject.name + " destroyed!");
+            Debug.Log(hit.collider.gameObject.name + " destroyed!");
             Destroy(hit.collider.gameObject);
         }
     }

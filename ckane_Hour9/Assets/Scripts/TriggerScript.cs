@@ -6,17 +6,17 @@ public class TriggerScript : MonoBehaviour
 {
     void OnTriggerEnter(Collider other)
     {
-        print("Entered: " + gameObject.name);
+        Debug.Log("Entered: " + gameObject.name);
     }
 
     void OnTriggerExit(Collider other)
     {
-        print("Exited: " + gameObject.name);
+        Debug.Log("Exited: " + gameObject.name);
     }
 
     void OnTriggerStay(Collider other)
     {
-        print("Inside: " + gameObject.name);
+        Debug.Log("Inside: " + gameObject.name);
     }
 
     // Start is called before the first frame update
