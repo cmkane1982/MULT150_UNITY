@@ -1,0 +1,12 @@
+The game is both too hard and too easy. When you are trying to play, the bumper is a bit on the small side and makes accurate bounces difficult. 
+However, if you choose to just do nothing, the game will beat itself.
+
+To make the game easier, a bigger bumper or a bumper of a different shape could be used. Extra chaos balls could be added to make the game more difficult. 
+The goals could be made to be more difficult to access as well. Instead of being out in the open, maybe surround the goals with walls except on one side. 
+Breakable blocks could also be added around the goals that must be destroyed before giving access to the goal.
+
+Give the user various moves to use. Examples may include a sticky bumper, bullet time, or a dashed line that predicts where collisions will go. 
+Music could also be added to the game.
+
+The bouncing and ricocheting balls reminds me a bit of Archanoid. The chaos balls bring a bit more of a challenge and randomness that’s quite nice. 
+The walking speed is too slow, therefore, to be useful, you must always hold shift to run. The bumper is a bit on the small side as well.ea
