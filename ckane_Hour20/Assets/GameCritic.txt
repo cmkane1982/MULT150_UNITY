@@ -1,0 +1,18 @@
+1. 	The game is too easy. Too much time is given from powerups / there's too many powerups.
+	The numerous powerups make losing almost impossible if you only collect a few. The
+	obstacles are too small and are easily avoidable. This reduces any difficulty and makes
+	losing difficult. Everything comes at you at the same speed. There is no variation to
+	the speed of obstacles and powerups, so there is not much challenge avoiding obstacles
+	and collecting powerups.
+2.	I would add variable speed to the powerups and obstacles. I would also add variable sizes
+	to the obstacles. Another change I would make are creating another type of obstacle that
+	leads to instant game over. These would spawn at a lower rate than other obstacles.
+3.	Music and sound effects would add a lot to the game. Instead of invincibility for a powerup,
+	make it a gun to destroy the obstacles. Add a score counter for the obstacles destroyed. The
+	score would fluctuate depending on how difficult the obstacle is to hit. Finally, occasionally
+	change the scenery depending on how long you've been running.
+4.	A part of what makes this game fun to play is the easy, pick up and play gameplay. The powerups
+	also make the game more fun. The slowing of time when hitting the obstacles was also a fun idea.
+5.	What made the game tedious is the slow, predictable rate the powerups and obstacles came towards
+	the player. Also, having no sound or music takes a lot out of the game. Another aspect that was
+	tedious was there was no variations to the scenery / look of obstacles.
